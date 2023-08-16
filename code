@@ -1,0 +1,62 @@
+//BR-PT -----
+using System;
+
+namespace MyApp 
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double num1, num2;
+            Console.WriteLine("======== ///// - Qual numero é maior? - ///// ========");
+            Console.WriteLine(" - Coloque o primeiro numero: ");
+            num1 = double.Parse(Console.ReadLine());
+            Console.WriteLine(" - Coloque o segundo numero: ");
+            num2 = double.Parse(Console.ReadLine());
+            if (num1 == num2)
+            {
+                Console.WriteLine("===== ///// - O primeiro numero é igual ao segundo! - ///// =====");
+            }
+            else{ Console.WriteLine("===== ///// - O primeiro numero NÃO é igual ao segundo! - ///// ====="); }
+
+            if (num1 > num2) 
+            {Console.WriteLine("===== ///// - O primeiro numero é MAIOR que o segundo! - ///// ====="); }
+            else if (num1 < num2)
+            { Console.WriteLine("===== ///// - O primeiro numero é MENOR que o segundo! - ///// ====="); }
+
+        }
+    }
+} 
+//codigo acaba aqui.
+
+//EN -----
+
+using System;
+
+MyApp namespace //Exercise 5
+{
+     class Program
+     {
+         static void Main(string[] args)
+         {
+             double num1, num2;
+             Console.WriteLine("======== ///// - Which number is bigger? - ///// ========");
+             Console.WriteLine(" - Enter the first number: ");
+             num1 = double.Parse(Console.ReadLine());
+             Console.WriteLine(" - Enter the second number: ");
+             num2 = double.Parse(Console.ReadLine());
+             if (num1 == num2)
+             {
+                 Console.WriteLine("===== ///// - The first number is equal to the second! - ///// =====");
+             }
+             else{ Console.WriteLine("===== ///// - The first number is NOT equal to the second! - ///// ====="); }
+
+             if (num1 > num2)
+             {Console.WriteLine("===== ///// - The first number is BIGGER than the second! - ///// ====="); }
+             else if (num1 < num2)
+             { Console.WriteLine("===== ///// - The first number is LESS than the second! - ///// ====="); }
+
+         }
+     }
+}
+//the code ends here.
